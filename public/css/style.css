@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-inline-size: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-block-end: 1px solid #ddd;
+}
+
+.header a {
+    text-decoration: none;
+    color: #333;
+    margin-inline-start: 15px;
+}
+
+.main-content {
+    background-color: #fff;
+    padding: 20px;
+    margin-block-start: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.breadcrumb {
+    margin-block-end: 20px;
+}
+
+.description-card {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-block-end: 20px;
+}
+
+.description-card .icon {
+    font-size: 24px;
+    margin-inline-end: 15px;
+    color: #555;
+}
+
+.features-section {
+    display: flex;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item {
+    background-color: #fff;
+    margin-block-end: 8px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    border-inline-start: 5px solid;
+    cursor: pointer;
+}
+
+.item-icon {
+    inline-size: 30px;
+    block-size: 30px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-inline-end: 15px;
+}
+
+.kalkulator-item {
+    border-inline-start-color: #9c27b0;
+}
+
+.kalkulator-item .item-icon {
+    background-color: #9c27b0;
+}
+
+.konversi-item .item-icon.w { background:#ff9800; }
+.konversi-item .item-icon.v { background:#ffc107; }
+.konversi-item .item-icon.i { background:#ffeb3b; color:#333; }
+.konversi-item .item-icon.r { background:#ff5722; }
+.konversi-item .item-icon.f { background:#03a9f4; }
